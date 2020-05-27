@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorWhite"
+        android:id="@+id/reg_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_below="@+id/reg_toolbar"
+        android:src="@drawable/ojass_theme"
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ScrollView
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#569bef">
+
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:inputType="textCapWords"
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#569bef">
+
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#569bef">
+
+                    <EditText
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:id="@+id/input_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:id="@+id/verifybtn_card"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:elevation="8dp"
+                    app:cardCornerRadius="0dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/verify_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorWhite"
+                        android:text="Verify"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#569bef">
+
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:id="@+id/input_college"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="College/School" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#569bef">
+
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:id="@+id/input_reg_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Registration No/Roll No" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#569bef">
+
+                <EditText
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:id="@+id/input_branch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Branch" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:background="@drawable/spinner_bg"
+                android:id="@+id/spinner_tshirt_size"
+                android:entries="@array/tshirt_size"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Spinner>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_register"
+                android:background="@drawable/btn_reg_bg"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textAllCaps="false"
+                android:text="Register"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/skip_this"
+                android:layout_gravity="end"
+                android:text="@string/skip_this"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

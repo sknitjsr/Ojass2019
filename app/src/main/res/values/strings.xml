@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Ojass</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="facebook_app_id">1973286816307174</string>
+    <string name="fb_login_protocol_scheme">fb1973286816307174</string>
+    <string name="AboutUs">About Us</string>
+    <string name="techfest">NIT Jamshedpur</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string-array name="noti_channel">
+        <item>OJASS</item>
+        <item>Arthashastra</item>
+        <item>CircuitHouse</item>
+        <item>VishwaCodeGenesis</item>
+        <item>NoGroundZone</item>
+        <item>Paraphernalia</item>
+        <item>Produs</item>
+        <item>SiliconValley</item>
+        <item>RiseOfMachines</item>
+        <item>NSCET</item>
+        <item>NeoDrishti</item>
+        <item>Exposicion</item>
+        <item>DeusXMachina</item>
+        <item>Avartan</item>
+        <item>Armageddon</item>
+        <item>Aakriti</item>
+        <item>Prayas</item>
+        <item>LiveCS</item>
+    </string-array>
+
+    <string-array name="tshirt_size">
+        <item>Select T-Shirt Size</item>
+        <item>XS (34)</item>
+        <item>S (36)</item>
+        <item>M (38)</item>
+        <item>L (40)</item>
+        <item>XL (42)</item>
+        <item>XXL (44)</item>
+    </string-array>
+
+    <string name="about_us"></string>
+
+    <string name="Rs">\u20B9</string>
+
+    <string name="activity_indicator">Activity Indicator : </string>
+    <string name="log_out">Log Out</string>
+    <string name="event_name">Event: </string>
+    <string name="team_result">Result: </string>
+    <string name="kit">Kit</string>
+
+
+    <string name="FACEBOOK_APP_ID">1973286816307174</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">601d497cf08198061be9664786cb0d82</string>
+    <string name="AK_LOGIN_PROTOCOL_SCHEME">ak1973286816307174</string>
+    <string name="skip_this"><u>Skip this</u></string>
+
+</resources>

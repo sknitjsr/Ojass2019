@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+
+    <style name="tabstyle" parent="Widget.Design.TabLayout">
+        <item name="tabPaddingStart">3dp</item>
+        <item name="tabPaddingEnd">3dp</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabRippleColor">@android:color/transparent</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <style name="bottomnavstyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@drawable/bottom_nav_shape</item>
+        <item name="itemIconTint">@color/sub_events_btm_bar_icon</item>
+        <item name="itemTextColor">@color/sub_events_btm_bar_text</item>
+    </style>
+
+    <style name="pop_up_anim">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>

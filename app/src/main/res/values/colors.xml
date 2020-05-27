@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474f</color>
+    <color name="colorPrimaryDark">#102027</color>
+    <color name="colorAccent">#62727b</color>
+    <color name="background">#d6dcdf</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="sub_events_bottom_nav">#37474f</color>
+    <color name="black">#000000</color>
+    <color name="tab_underline_color">#000</color>
+    <color name="sub_events_btm_bar_icon">#fff</color>
+    <color name="sub_events_btm_bar_text">#fff</color>
+    <color name="tab_text_color">#000</color>
+    <color name="profile_top">#005be7</color>
+    <color name="forest_green">#228B22</color>
+    <color name="colorToolbar">#696060</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorBlue">#6969AA</color>
+</resources>
